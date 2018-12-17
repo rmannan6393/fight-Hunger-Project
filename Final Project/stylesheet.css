@@ -1,0 +1,134 @@
+body{
+	max-width: 100%;
+	font-family: Arial, Helvetica, sans-serif;
+	margin: 0px;
+
+
+}
+
+a{
+	text-decoration: none;
+}
+
+a:link{
+	color: black;
+}
+
+a:visited{
+	color: black;
+}
+
+img{
+	display: block;
+}
+
+p{
+    text-align:center;
+    margin:0 auto;
+
+    line-height: 24px;
+}
+
+.textDiv{
+	margin: 48px;
+
+	text-align: center;
+
+
+}
+
+ul{
+	padding: 0px;
+	margin: 0px;
+	height: inherit;
+	list-style: none;
+
+	position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+
+}
+
+li{
+	padding-top: 36.5px;
+
+	display: inline-block;
+	float: left;
+
+}
+
+li :hover{ 
+	color: #63C5A4;
+
+	text-decoration: underline;
+
+	transition: 0.2s;
+
+
+}
+
+li a{
+	padding: 36.5px 35px 36.5px 35px;
+
+	transition: 1s;
+
+	font-weight: bold;
+}
+
+#LogoDiv{
+	margin-top: -1px;
+	padding-top: 1px;
+
+	height: 190px;
+}
+
+#Logo{
+	width: 350px;
+
+	margin-top: 76.651px;
+
+	position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+
+}
+
+#NavBar{
+	height: 90px;
+}
+
+#MainDiv{
+
+	/*min-height: 500px;*/
+	overflow-y: hidden;
+
+
+}
+
+.ExtraDivs{
+	min-height: 500px;
+	overflow-y: hidden;
+	padding-bottom: 6.29%;
+}
+
+#VideoPlaceholder{
+	position: absolute;
+	left: 50%;
+	transform: translateX(-50%);
+
+	width: 40%; 
+}
+
+#InfoBar{
+	margin-top: -1px;
+	padding-top: 1px;
+
+	background-color: black;
+	padding-bottom: 6.29%;
+	color: #63C5A4;
+}
+
+.columns{
+	width: 50%;
+	float: left;
+}
